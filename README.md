@@ -10,7 +10,7 @@
 
 ## Extensions
 
-The purposes of this project is to be extended, here is an exemple of utilisation:
+The purposes of this project is to be extended, here is an exemple of use:
 
 - Run it on a raspberry pi that notify the student via discord or telegram
 
