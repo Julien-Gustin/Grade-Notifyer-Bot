@@ -2,7 +2,7 @@
 
  A bot that automatically crawl the [submission platform of montefiore](https://submit.montefiore.ulg.ac.be/index.php/student) to notify the student when a project has been graded.
 
-## Utilisation
+## How to Use?
 
 1. Install dependencies and create the credential file `./setup`
 2. Modify `credentials.json` file with your credentials
