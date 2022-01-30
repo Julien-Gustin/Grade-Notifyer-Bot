@@ -1,6 +1,6 @@
 # Grade Notifyer Bot
 
- A bot that automatically crawl the [submission platform of montefiore](https://submit.montefiore.ulg.ac.be/index.php/student) to notify the student when a project had been grade.
+ A bot that automatically crawl the [submission platform of montefiore](https://submit.montefiore.ulg.ac.be/index.php/student) to notify the student when a project has been graded.
 
 ## Utilisation
 
