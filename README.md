@@ -4,7 +4,7 @@
 
 ## Utilisation
 
-1. Install dependencies `./install_dependencies`
+1. Install dependencies and create the credential file `./setup`
 2. Modify `credentials.json` file with your credentials
 3. Launch the bot `./run.sh`
 
