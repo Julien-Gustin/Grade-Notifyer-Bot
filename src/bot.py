@@ -26,10 +26,14 @@ if __name__ == '__main__':
         projects_dict = crawler.extract_project_fields(submit_web_page_raw)
 
         for project_id, values in projects_dict.items():
+
+            if project_id not in prec_state: # new project 
+                continue
+
             if values["grade"] != prec_state[project_id]["grade"]: # grade received
                 notification.send_notification("Grade received !\n{} - {}: {}\n".format(values["course_id"], values["project_name"], values["grade"]))
 
         prec_state = projects_dict
 
-        time.sleep(10)
+        time.sleep(60*15)
 
