@@ -12,7 +12,23 @@
 
 The purposes of this project is to be extended, here is an exemple of use:
 
-- Run it on a raspberry pi that notify the student via discord or telegram
+- Run it on a raspberry pi that notify the student via pushover app
 
-For that purpose just get to `src/bot.py` and modify whatever you want.
+For that purpose just get to `src/notification.py` and modify how you want to get notified
+
+I personally use the service of [pushover](https://pushover.net/) that allow me to send me notification to my phone via http request.
+
+Here is an example:
+
+```py
+def send_notification(message:str):
+    conn = http.client.HTTPSConnection("api.pushover.net:443")
+    conn.request("POST", "/1/messages.json",
+    urllib.parse.urlencode({
+        "token": "TOKEN",
+        "user": "USER",
+        "message": message,
+    }), { "Content-type": "application/x-www-form-urlencoded" })
+    conn.getresponse()
+```
 
