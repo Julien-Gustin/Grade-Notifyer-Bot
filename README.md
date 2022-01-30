@@ -14,7 +14,7 @@ The purposes of this project is to be extended, here is an exemple of use:
 
 - Run it on a raspberry pi that notify the student via pushover app
 
-For that purpose just get to `src/notification.py` and modify how you want to get notified
+For that purpose just modify `src/notification.py`
 
 I personally use the service of [pushover](https://pushover.net/) that allow me to send me notification to my phone via http request.
 
