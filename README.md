@@ -32,3 +32,11 @@ def send_notification(message:str):
     conn.getresponse()
 ```
 
+## Example
+
+<p align="center">
+  <img src="https://github.com/Julien-Gustin/Grade-Notifyer-Bot/blob/master/example_alex.jpg?raw=true" />
+  <br>
+  <em style="text-align:center">Example using pushover app</em>
+</p>
+
